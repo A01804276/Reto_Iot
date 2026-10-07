@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="xyizxJmvEDLWJ2ut_i8U" name="Page-1">
+        <mxGraphModel dx="972" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;span style=&quot;font-size:12.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Percepción&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="200" width="200" x="30" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-3" parent="IKGdYaHy7v7XgORSU2Lf-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;Los sensores MAX30102, MPU6050&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&amp;nbsp;y&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;DS18B20 recolectan las variables&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;biomédicas del usuario&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;(frecuencia cardiaca, Detección de caídas, SpO2 y&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;temperatura)&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Aptos, sans-serif; font-size: 12pt; background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="130" width="180" x="10" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-4" edge="1" parent="1" source="IKGdYaHy7v7XgORSU2Lf-2" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IKGdYaHy7v7XgORSU2Lf-5" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="260" y="250" as="sourcePoint"/>
+                        <mxPoint x="310" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;span style=&quot;font-size:12.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Red&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="200" width="200" x="340" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-6" parent="IKGdYaHy7v7XgORSU2Lf-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;EI ESP32 transmite los datos&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;mediante WiFi usando el&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;protocolo MQTT&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Aptos, sans-serif; font-size: 12pt; background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="130" width="180" x="10" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;span style=&quot;font-size:12.0pt;line-height:115%;&amp;lt;br/&amp;gt;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&amp;lt;br/&amp;gt;Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&amp;lt;br/&amp;gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&amp;lt;br/&amp;gt;mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Procesamiento&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="200" width="200" x="630" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-10" parent="IKGdYaHy7v7XgORSU2Lf-7" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;El broker MQTT recibe los datos,&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Node-RED los procesa y valida,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;y la información se almacena en&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;InfluxDB2.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="130" width="180" x="10" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;span style=&quot;font-size:12.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Aplicación&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="200" width="200" x="910" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-8" parent="IKGdYaHy7v7XgORSU2Lf-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;Los datos se visualizan en un&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;dashboard de Grafana o&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Node-RED Dashboard&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="130" width="180" x="10" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;span style=&quot;font-size:12.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Negocio&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="200" width="200" x="1190" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-12" parent="IKGdYaHy7v7XgORSU2Lf-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;Permite la gestión del sistema,&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%;&quot;&gt;&lt;font&gt;alertas y decisiones estratégicas&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="130" width="180" x="10" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-13" edge="1" parent="1" source="IKGdYaHy7v7XgORSU2Lf-5" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="IKGdYaHy7v7XgORSU2Lf-7" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="540" y="240" as="sourcePoint"/>
+                        <mxPoint x="690" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-14" edge="1" parent="1" source="IKGdYaHy7v7XgORSU2Lf-7" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IKGdYaHy7v7XgORSU2Lf-9" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="870" y="220" as="sourcePoint"/>
+                        <mxPoint x="980" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IKGdYaHy7v7XgORSU2Lf-15" edge="1" parent="1" source="IKGdYaHy7v7XgORSU2Lf-9" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IKGdYaHy7v7XgORSU2Lf-11" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="1170" y="230" as="sourcePoint"/>
+                        <mxPoint x="1280" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
