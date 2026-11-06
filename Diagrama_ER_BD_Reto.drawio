@@ -1,0 +1,277 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="VitalBand Chen" id="vb-chen">
+    <mxGraphModel dx="2395" dy="1242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l_USUARIO_0" edge="1" parent="1" source="E_USUARIO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_USUARIO_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_USUARIO_1" edge="1" parent="1" source="E_USUARIO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_USUARIO_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_USUARIO_2" edge="1" parent="1" source="E_USUARIO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_USUARIO_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_USUARIO_3" edge="1" parent="1" source="E_USUARIO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_USUARIO_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_DISPOSITIVO_0" edge="1" parent="1" source="E_DISPOSITIVO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_DISPOSITIVO_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_DISPOSITIVO_1" edge="1" parent="1" source="E_DISPOSITIVO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_DISPOSITIVO_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_DISPOSITIVO_2" edge="1" parent="1" source="E_DISPOSITIVO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_DISPOSITIVO_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_DISPOSITIVO_3" edge="1" parent="1" source="E_DISPOSITIVO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_DISPOSITIVO_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_SENSOR_0" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;strokeColor=#666666;" target="A_SENSOR_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_SENSOR_1" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;strokeColor=#666666;" target="A_SENSOR_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_SENSOR_2" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;strokeColor=#666666;" target="A_SENSOR_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_SENSOR_3" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;strokeColor=#666666;" target="A_SENSOR_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_MEDICION_0" edge="1" parent="1" source="E_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_MEDICION_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_MEDICION_1" edge="1" parent="1" source="E_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_MEDICION_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_MEDICION_2" edge="1" parent="1" source="E_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_MEDICION_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_MEDICION_3" edge="1" parent="1" source="E_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_MEDICION_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_TIPO_MEDICION_0" edge="1" parent="1" source="E_TIPO_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_TIPO_MEDICION_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_TIPO_MEDICION_1" edge="1" parent="1" source="E_TIPO_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_TIPO_MEDICION_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_TIPO_MEDICION_2" edge="1" parent="1" source="E_TIPO_MEDICION" style="endArrow=none;html=1;strokeColor=#666666;" target="A_TIPO_MEDICION_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_REGISTRO_MOVIMIENTO_0" edge="1" parent="1" source="E_REGISTRO_MOVIMIENTO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_REGISTRO_MOVIMIENTO_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_REGISTRO_MOVIMIENTO_1" edge="1" parent="1" source="E_REGISTRO_MOVIMIENTO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_REGISTRO_MOVIMIENTO_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_REGISTRO_MOVIMIENTO_2" edge="1" parent="1" source="E_REGISTRO_MOVIMIENTO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_REGISTRO_MOVIMIENTO_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_REGISTRO_MOVIMIENTO_3" edge="1" parent="1" source="E_REGISTRO_MOVIMIENTO" style="endArrow=none;html=1;strokeColor=#666666;" target="A_REGISTRO_MOVIMIENTO_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_EVENTO_CAIDA_0" edge="1" parent="1" source="E_EVENTO_CAIDA" style="endArrow=none;html=1;strokeColor=#666666;" target="A_EVENTO_CAIDA_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_EVENTO_CAIDA_1" edge="1" parent="1" source="E_EVENTO_CAIDA" style="endArrow=none;html=1;strokeColor=#666666;" target="A_EVENTO_CAIDA_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_EVENTO_CAIDA_2" edge="1" parent="1" source="E_EVENTO_CAIDA" style="endArrow=none;html=1;strokeColor=#666666;" target="A_EVENTO_CAIDA_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_EVENTO_CAIDA_3" edge="1" parent="1" source="E_EVENTO_CAIDA" style="endArrow=none;html=1;strokeColor=#666666;" target="A_EVENTO_CAIDA_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k0" edge="1" parent="1" source="E_USUARIO" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_posee" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1" edge="1" parent="1" source="E_DISPOSITIVO" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_posee" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2" edge="1" parent="1" source="E_DISPOSITIVO" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_incluye" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_incluye" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_obtiene" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k5" edge="1" parent="1" source="E_MEDICION" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_obtiene" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6" edge="1" parent="1" source="E_TIPO_MEDICION" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_clasifica" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k7" edge="1" parent="1" source="E_MEDICION" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_clasifica" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_genera" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9" edge="1" parent="1" source="E_REGISTRO_MOVIMIENTO" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_genera" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k10" edge="1" parent="1" source="E_SENSOR" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_detecta" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k11" edge="1" parent="1" source="E_EVENTO_CAIDA" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_detecta" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k13" edge="1" parent="1" source="E_EVENTO_CAIDA" style="endArrow=none;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=#ffffff;" target="R_origina" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_USUARIO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="USUARIO" vertex="1">
+          <mxGeometry height="60" width="150" x="165" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_USUARIO_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_usuario" vertex="1">
+          <mxGeometry height="46" width="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_USUARIO_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="nombre" vertex="1">
+          <mxGeometry height="46" width="140" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="A_USUARIO_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="apellido_paterno" vertex="1">
+          <mxGeometry height="46" width="140" y="281" as="geometry" />
+        </mxCell>
+        <mxCell id="A_USUARIO_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="fecha_nacimiento" vertex="1">
+          <mxGeometry height="46" width="140" x="10" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="E_DISPOSITIVO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="DISPOSITIVO" vertex="1">
+          <mxGeometry height="60" width="150" x="765" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DISPOSITIVO_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_dispositivo" vertex="1">
+          <mxGeometry height="46" width="140" x="690" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DISPOSITIVO_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="nombre" vertex="1">
+          <mxGeometry height="46" width="140" x="850" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DISPOSITIVO_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="modelo" vertex="1">
+          <mxGeometry height="46" width="140" x="690" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DISPOSITIVO_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="direccion_mac" vertex="1">
+          <mxGeometry height="46" width="140" x="850" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="E_SENSOR" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="SENSOR" vertex="1">
+          <mxGeometry height="60" width="150" x="1365" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_SENSOR_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_sensor" vertex="1">
+          <mxGeometry height="46" width="140" x="1160" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_SENSOR_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="nombre" vertex="1">
+          <mxGeometry height="46" width="140" x="1300" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_SENSOR_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="tipo_sensor" vertex="1">
+          <mxGeometry height="46" width="140" x="1440" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_SENSOR_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="interfaz" vertex="1">
+          <mxGeometry height="46" width="140" x="1580" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="E_MEDICION" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="MEDICION" vertex="1">
+          <mxGeometry height="60" width="150" x="1965" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_MEDICION_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_medicion" vertex="1">
+          <mxGeometry height="46" width="140" x="1890" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_MEDICION_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="valor" vertex="1">
+          <mxGeometry height="46" width="140" x="2050" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="A_MEDICION_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="fecha_hora" vertex="1">
+          <mxGeometry height="46" width="140" x="1890" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="A_MEDICION_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="es_valida" vertex="1">
+          <mxGeometry height="46" width="140" x="2050" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="E_TIPO_MEDICION" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="TIPO_MEDICION" vertex="1">
+          <mxGeometry height="60" width="150" x="2565" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TIPO_MEDICION_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_tipo_medicion" vertex="1">
+          <mxGeometry height="46" width="140" x="2740" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TIPO_MEDICION_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="nombre" vertex="1">
+          <mxGeometry height="46" width="140" x="2750" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TIPO_MEDICION_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="unidad" vertex="1">
+          <mxGeometry height="46" width="140" x="2750" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-1" edge="1" parent="1" source="E_REGISTRO_MOVIMIENTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;shape=wire;dashed=1;endArrow=none;endFill=0;" target="R_origina">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_REGISTRO_MOVIMIENTO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="REGISTRO_MOVIMIENTO" vertex="1">
+          <mxGeometry height="60" width="150" x="1365" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="A_REGISTRO_MOVIMIENTO_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_movimiento" vertex="1">
+          <mxGeometry height="46" width="140" x="1140" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="A_REGISTRO_MOVIMIENTO_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="fecha_hora" vertex="1">
+          <mxGeometry height="46" width="140" x="1210" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="A_REGISTRO_MOVIMIENTO_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="aceleracion (x,y,z)" vertex="1">
+          <mxGeometry height="46" width="140" x="1370" y="947" as="geometry" />
+        </mxCell>
+        <mxCell id="A_REGISTRO_MOVIMIENTO_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="giro (x,y,z)" vertex="1">
+          <mxGeometry height="46" width="140" x="1530" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="E_EVENTO_CAIDA" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="EVENTO_CAIDA" vertex="1">
+          <mxGeometry height="60" width="150" x="1965" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EVENTO_CAIDA_0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=4;" value="id_evento" vertex="1">
+          <mxGeometry height="46" width="140" x="2200" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EVENTO_CAIDA_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="fecha_hora" vertex="1">
+          <mxGeometry height="46" width="140" x="1810" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EVENTO_CAIDA_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="magnitud_pico_g" vertex="1">
+          <mxGeometry height="46" width="140" x="1970" y="947" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EVENTO_CAIDA_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="estado" vertex="1">
+          <mxGeometry height="46" width="140" x="2130" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="R_posee" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="posee" vertex="1">
+          <mxGeometry height="70" width="120" x="480" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="R_incluye" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="incluye" vertex="1">
+          <mxGeometry height="70" width="120" x="1080" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="R_obtiene" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="obtiene" vertex="1">
+          <mxGeometry height="70" width="120" x="1680" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="R_clasifica" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="clasifica" vertex="1">
+          <mxGeometry height="70" width="120" x="2280" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="R_genera" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="genera" vertex="1">
+          <mxGeometry height="70" width="120" x="1380" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="R_detecta" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="detecta" vertex="1">
+          <mxGeometry height="70" width="120" x="1680" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="R_origina" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="origina" vertex="1">
+          <mxGeometry height="70" width="120" x="1680" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="1710" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="1310" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="1820" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N:1" vertex="1">
+          <mxGeometry height="30" width="60" x="2310" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="1710" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="1110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Pg9VpEdHL0xsRM3odMNM-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="164" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
